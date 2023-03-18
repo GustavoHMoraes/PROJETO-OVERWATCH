@@ -1,0 +1,16 @@
+body{
+	background-color: gray;
+}
+#imagem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
+#titulo{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: orange;
+}
