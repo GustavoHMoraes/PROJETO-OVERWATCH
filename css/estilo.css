@@ -1,18 +1,41 @@
 body{
-	background-color: gray;
+	background-color: #405275;
 }
 #imagem{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
-	text-align: center;
     height: 400px;
     width: 800px;
+	border: 10px solid #43484c;
 }
 #titulo{
 	text-align: center;
 	align-items: center;
 	justify-content: center;
 	color: orange;
+	text-shadow: 10px 10px 10px black
+}
+#descricao{
+	text-align: center;
+	color:orange;
+	font-family: Comic sans-serif;
+	font-size: x-large;
+	text-shadow: 10px 10px 10px black; 
+}
+#lucio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+    height: 400px;
+    width: 700px;
+}
+h2 {
+	text-align: center;
+	color:orange;
+	font-family: Comic sans-serif;
+	font-size: large;
+	text-shadow: 10px 10px 10px black
 }
