@@ -1,5 +1,7 @@
-function mudar(){
-    let img = document.getElementById("imagem");
-    let trocar = Math.trunc(Math.random()*10)
-    img.src = "img/imgoverwatch-" + trocar + ".jpg";
-}
+function imagemAleatoria() {
+    var numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+    var novaImagem = "imgoverwatch-" + numeroAleatorio + ".jpg";
+    document.getElementById("imagem").src = novaImagem;
+  }
+  
+  document.getElementById("imagem").addEventListener("click", imagemAleatoria);
