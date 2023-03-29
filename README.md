@@ -15,6 +15,6 @@ Para a #imagem, eu a centralizei e defini um tamanho padrão para as imagens, al
 Para o #titulo, eu o centralizei e mudei a cor da fonte para laranja, que é uma das principais cores do jogo Overwatch. Também adicionei uma sombra para destacar o título. O mesmo foi feito para as descrições.
 
 # JavaScript
-Primeiramente eu criei a função "imagemAleatoria" (já mencionada no #html) e declarei duas variáveis dentro dela. A variável "numeroAleatorio" gera um número aleatório de 0 a 9, enquanto a variável "novaImagem" concatena a string "img/imgoverwatch-" com o número gerado anteriormente, seguido de ".jpg" para selecionar o tipo da imagem.
+Primeiramente eu criei a função "imagemAleatoria" (já mencionada no #html) e declarei duas variáveis dentro dela. A variável "numeroAleatorio" gera um número aleatório de 0 a 9, e a variável "novaImagem" que escreve "img/imgoverwatch-" mais, o número gerado anteriormente, seguido de ".jpg" para selecionar o tipo da imagem.
 Na quarta linha, a função "document.getElementById("imagem").src" é utilizada para selecionar o elemento HTML que possui o ID "imagem" e alterar o valor do atributo "src", que corresponde à imagem que será exibida.
 Para a imagem da arma do "Lúcio", é utilizado o mesmo raciocínio, alterando apenas o nome da função, as variáveis e a ID.
